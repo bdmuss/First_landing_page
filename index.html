@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>First landing page</title>
+        <link rel="stylesheet" href="./css/semantic.css" media="screen" title="no title">
+        <!--（1）打link自动联想出来的，title后面没有charset="utf-8"-->
+    </head>
+    <body>
+        <div class="ui fixed inverted menu">
+            <a href="#" class="item">Home</a>
+            <a href="#" class="item">About</a>
+            <a href="#" class="item">Other</a>
+            <!--（3）输入div回车，填入ui menu，再输入div回车，填入item-->
+            <!--(4)在ui和menu中间加入fixed inverted，inverted白变黑，fixed固定在正上方，并且碰巧挡住banner.jpg上方，即使上下滚动页面也固定在正上方.为了让3个item有链接作用，把div标签换成a标签-->
+        </div>
+
+        <div class="ui vertical basic segment">
+            <!--头部-->
+            <!--（8）去掉banner.jpg底部黑边方法，18行，去掉inverted，加上basic;27行加上basic-->
+            <div class="ui image">
+                <img src="./images/banner.jpg" alt="" />
+            </div>
+            <!--（2）输入div回车，class后填ui image，输入img回车，src后面填文件路径，为了解决上方一条黑，多加了一栏菜单。。-->
+        </div>
+
+        <div class="ui vertical basic segment">
+            <!--中间-->
+            <div class="ui grid">
+                <div class="ten wide column">
+                    <div class="ui image">
+                        <!--(5)输入div回车，输入ui grid，再输入div回车，输入ten wide column，占10列，再输入div回车，输入ui image，再输入img回车输入文件路径-->
+                        <img src="./images/devices2.png" alt="" />
+                    </div>
+                </div>
+
+                <div class="six wide column">
+                    <h2 class="ui header">
+                        <i class="icon book"></i>
+                        <!--(7)增加一个图标在This is a title之前-->
+                        This is a title
+                    </h2>
+                    <!--(6)输入div回车，输入six wide column，输入h3回车，在h3后面输入class回车，输入ui header，在h2内容部分输入This is a title-->
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="ui vertical very padded inverted segment">
+            <!--尾部-->
+            <!--inverted text menu是为了让字变成白色能够看得见。新的样式text menu-->
+            <div class="ui grid">
+                <div class="four wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h3 class="ui inverted header">Company</h3>
+                        </div>
+
+                        <div class="item">
+                            Address : CN
+                        </div>
+
+                        <div class="item">
+                            Tel : 010-66666
+                        </div>
+
+                        <div class="item">
+                            Fax : 010-66666
+                        </div>
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h3 class="ui inverted header">Company</h3>
+                        </div>
+
+                        <div class="item">
+                            Address : CN
+                        </div>
+
+                        <div class="item">
+                            Tel : 010-66666
+                        </div>
+
+                        <div class="item">
+                            Fax : 010-66666
+                        </div>
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h3 class="ui inverted header">Company</h3>
+                        </div>
+
+                        <div class="item">
+                            Address : CN
+                        </div>
+
+                        <div class="item">
+                            Tel : 010-66666
+                        </div>
+
+                        <div class="item">
+                            Fax : 010-66666
+                        </div>
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui vertical inverted text menu">
+                        <div class="item">
+                            <h3 class="ui inverted header">Company</h3>
+                        </div>
+
+                        <div class="item">
+                            Address : CN
+                        </div>
+
+                        <div class="item">
+                            Tel : 010-66666
+                        </div>
+
+                        <div class="item">
+                            Fax : 010-66666
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
